@@ -1,6 +1,6 @@
 Whisper GUI Tool:
 
-This is a Python script that provides a graphical user interface (GUI) for using the Whisper speech recognition and translation tool. It allows users to select an audio or video file, choose a Whisper model and task (transcribe or translate), and specify an output directory. The script then processes the file using Whisper and generates transcriptions or translations in the selected output directory.
+This is a Python script that provides a graphical user interface (GUI) for using the Whisper speech recognition and translation tool. It allows users to select an audio or video file, choose a Whisper model and task (transcribe or translate), and specify an output directory. The script then processes the file using Whisper and generates transcriptions or translations in the selected output directory. It will also use FFMPeg To render a new copy of the origional video with the subtitles applied. 
 
 Prerequisites:
 
