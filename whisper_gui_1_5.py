@@ -115,7 +115,7 @@ class WhisperGUI:
                     ffmpeg_command = [
                         "ffmpeg",
                         "-i", output_video_path,
-                        "-vf", f"subtitles={subtitle_file},scale=854:-1",  # Scale video to 480p width, maintain aspect ratio
+                        "-vf", f"subtitles={subtitle_file},scale=854:-2",  # Scale video to 480p width, maintain aspect ratio
                         "-b:v", "1000k",  # Lower bitrate
                         "-c:a", "aac",
                         "-c:v", "libx264",
